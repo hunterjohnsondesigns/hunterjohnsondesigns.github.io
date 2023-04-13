@@ -60,7 +60,7 @@
 
 
 
-/* mobile nav hide */
+/* mobile nav hide
 
 @media (min-width: 980px){
 
@@ -80,12 +80,12 @@
     .land-type {
       padding: 10%;
     }
-  }
+  } */
 
 
   /* mobile nav */
 
-#menu{
+/* #menu{
     position: fixed;
     right: 2rem;
     top: 2rem;
@@ -157,4 +157,4 @@
   
   .transform{
     transform: translate(0,0);
-  }
+  } */
