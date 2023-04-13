@@ -95,6 +95,15 @@ ul {
     display: block;
   }
 
+/* css grid for the whole page other than nav */
+.container{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  /* align-items: center; */
+  }
+
+
 
 /* social sidebar */
 /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
@@ -162,17 +171,17 @@ ul {
  
   
       .div1 { grid-area: a;
-        scale:60%;}
+        /* scale:60%; */}
       .div2 { grid-area: b;
-        scale: 60%}
+        /* scale: 60% */}
       .div3 { grid-area: c;
-        scale: 60%}
+        /* scale: 60% */}
       .div4 { grid-area: d; 
-        scale: 60%}
+        /* scale: 60% */}
       .div5 { grid-area: e;
-        scale: 60%}
+        /* scale: 60% */}
       .div6 { grid-area: f;
-         scale: 60%}
+         /* scale: 60% */}
     
     
       nav {
