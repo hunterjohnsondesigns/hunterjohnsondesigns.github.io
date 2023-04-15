@@ -18,7 +18,8 @@
       nav {
         padding-left: 0;
         left:-5px;
-        width: 100vw;}
+        width:100%;
+        flex: 0 0 100%;}
 
 
 
@@ -106,7 +107,7 @@
 .icon-bar {
   position: fixed;
   top: 50%;
-  left: 90%;
+  left: 89%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
