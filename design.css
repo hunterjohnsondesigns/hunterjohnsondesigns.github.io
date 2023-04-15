@@ -4,7 +4,6 @@
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     grid-template-areas:
-            "header"
             "content"
             "footer";
   }
