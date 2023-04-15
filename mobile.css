@@ -24,7 +24,7 @@
           margin: 0 auto;
           display: grid;
           grid-area: portfolio-container;
-          background-color: #c51111;
+          /* background-color: #c51111; */
           align-items: center;
           justify-content: center;
           grid-template-columns: 1fr;

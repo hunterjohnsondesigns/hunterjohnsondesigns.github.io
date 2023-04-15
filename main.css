@@ -10,6 +10,10 @@ body {
     background-color: #1a1a1a;
 }
 
+a {
+  text-decoration: none;
+}
+
 .favicon {
   color:#FFF4E0;
 }
@@ -147,3 +151,15 @@ ul {
 
 
 
+.column {
+  float: left;
+  text-align: center;
+  width: 30%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
