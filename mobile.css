@@ -17,8 +17,31 @@
 
       nav {
         padding-left: 0;
-    
-        left:-5px;}
+        left:-5px;
+        width: 100vw;}
+
+
+
+      ul {
+        list-style-type: none;
+        margin: auto;
+        padding: 0;
+        overflow: hidden;
+        background-color: #1a1a1a;
+        }
+        
+      li {
+          float: left;
+        }
+        
+        li a, .dropbtn {
+          display: inline-block;
+          color: #FFF4E0;
+          text-align: center;
+          padding: 30px 40px;
+          text-decoration: none;
+          text-transform: uppercase;
+        }
       
       .portfolio-container {
           margin: 0 auto;
