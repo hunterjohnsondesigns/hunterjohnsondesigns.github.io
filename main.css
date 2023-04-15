@@ -174,18 +174,12 @@ ul {
 
  
   
-      .div1 { grid-area: a;
-        /* scale:60%; */}
-      .div2 { grid-area: b;
-        /* scale: 60% */}
-      .div3 { grid-area: c;
-        /* scale: 60% */}
-      .div4 { grid-area: d; 
-        /* scale: 60% */}
-      .div5 { grid-area: e;
-        /* scale: 60% */}
-      .div6 { grid-area: f;
-         /* scale: 60% */}
+      .div1 { grid-area: a;}
+      .div2 { grid-area: b;}
+      .div3 { grid-area: c;}
+      .div4 { grid-area: d;}
+      .div5 { grid-area: e;}
+      .div6 { grid-area: f;}
     
     
       nav {
@@ -200,6 +194,7 @@ ul {
         align-items: center;
         justify-content: center;
         grid-template-columns: 1fr;
+        grid-template-rows: auto;
         grid-template-areas:
            "a"
            "b"
