@@ -11,6 +11,7 @@
 	<link rel="stylesheet" type="text/css" media="screen" href="mobile.css" />
 	<link rel="stylesheet" type="text/css" media="screen" href="desktop.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="design.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/qya2sqo.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:italic,100,800" rel="stylesheet">
     <link rel="stylesheet" href="https://use.typekit.net/qya2sqo.css">
@@ -20,122 +21,165 @@
 
 </head>
 <body>
+
+<!--Nav section-->
+<nav class="hide-mobile">
+  <ul>
+     
+      <li><a href="#home" class="hover-underline-animation">Home</a></li>
+      
+      <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn hover-underline-animation">Portfolios+</a>
+        <div class="dropdown-content">
+          <a href="design.html" >Design Portfolio</a>
+          <a href="photo.html">Photography Portoflio</a>
+          <a href="art.html">Art Portfolio</a>
+          <li><a href="about.html" class="hover-underline-animation">About</a></li>
+        </div>
+      </li>
+    </ul>
+</nav>
+
+<div class="hide-mobile">
+<div id='menu'>
+<div class='menu-line1'></div>
+<div class='menu-line2'></div>
+</div>
+<div class='nav-page1'>
+<span class="hover-underline-animation">HOME</span>
+<span class="hover-underline-animation">DESIGN PORTFOLIO</span>
+<span class="hover-underline-animation">PHOTOGRAPHY PORTFOLIO</span>
+<span class="hover-underline-animation">ART PORTFOLIO</span>
+<span class="hover-underline-animation">ABOUT</span>
+</div>
+<div class='nav-page2'></div>
+</div>
+
+<div class="hide-desktop">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Top Navigation Menu -->
+<div class="topnav">
+<a href="#" class="active">Design Portfolio</a>
+<!-- Navigation links (hidden by default) -->
+<div id="myLinks">
+  <a href="index.html">Home</a>
+  <a href="photo.html">Photography Portfolio</a>
+  <a href="art.html">Art Portfolio</a>
+<a href="about.html">About</a>
+</div>
+<!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+  <i class="fa fa-bars"></i>
+</a>
+</div>
+</div>
+<!-- social section -->
+<div class="icon-bar">
+<a href="https://www.facebook.com/hunterjohnsondesigns/" class="facebook"><i class="fa fa-facebook"></i></a>
+<a href="https://twitter.com/hunterjohnsongd" class="twitter"><i class="fa fa-twitter"></i></a>
+<a href="mailto:hunterjohnsongd@gmail.com" class="google"><i class="fa fa-google"></i></a>
+<a href="https://www.linkedin.com/in/hunterjohnsondesigns/" class="linkedin"><i class="fa fa-linkedin"></i></a>
+<a href="https://www.instagram.com/hunterjohnsondesigns/" class="instagram"><i class="fa fa-instagram"></i></a>
+</div>
+
+
+
+<div class="page-header">
+  <h1>Design Portfolio</h1>
+</div>
 <div class="design-container">
     <section class="content">
         <div class="image-gallery content regular-wrapper">
           <div class="box-wrapper box1">
             <div class="box-styling">
             <a href="https://xd.adobe.com/view/ac749a94-904f-4690-91ec-386c81307f9e-f927/">
-              <!-- <img src="assets/thumnails/nintendo-thumbnail-mock.png">
+              <img src="assets/thumnails/nintendo-thumbnail-mock.png"> 
+            </a>
               <div class="overlay design-bigText">
             <h2>Nintendo Switch App Redesign</h2>
-            <p>click to see more</p> 
-          </div> -->
-                <div class="slideshow-container">
-                  <div class="mySlides fade">
-                    <div class="numbertext">1 / 6</div>
-                    <img src="assets/thumnails/nintendo-thumbnail-mock.png" style="width:100%">
-                  </div>
+            <a href="https://xd.adobe.com/view/ac749a94-904f-4690-91ec-386c81307f9e-f927/"><p>Try the prototype! ></p></a>
+          </div>
 
-                  <div class="mySlides fade">
-                    <div class="numbertext">2 / 6</div>
-                    <img src="assets/thumnails/nintendo-screen-1.png" class="vertical-image" style="width:100%">
-                  </div>
-
-                  <div class="mySlides fade">
-                    <div class="numbertext">3 / 6</div>
-                    <img src="assets/thumnails/nintendo-screen-2.png" class="vertical-image" style="width:100%">
-                  </div>
-
-                  <div class="mySlides fade">
-                    <div class="numbertext">4 / 6</div>
-                    <img src="assets/thumnails/nintendo-screen-3.png" class="vertical-image" style="width:100%">
-                  </div>
-
-                  <div class="mySlides fade">
-                    <div class="numbertext">5 / 6</div>
-                    <img src="assets/thumnails/nintendo-screen-4.png" class="vertical-image" style="width:100%">
-                  </div>
-
-                  <div class="mySlides fade">
-                    <div class="numbertext">6 / 6</div>
-                    <img src="assets/thumnails/nintendo-screen-5.png" class="vertical-image" style="width:100%">
-                  </div>
-
-                  <!-- Next and previous buttons -->
-                  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                </div>
-                <br>
-
-                <!-- The dots/circles -->
-                <div style="text-align:center">
-                  <span class="dot" onclick="currentSlide(1)"></span>
-                  <span class="dot" onclick="currentSlide(2)"></span>
-                  <span class="dot" onclick="currentSlide(3)"></span>
-                  <span class="dot" onclick="currentSlide(1)"></span>
-                  <span class="dot" onclick="currentSlide(2)"></span>
-                  <span class="dot" onclick="currentSlide(3)"></span>
-                </div>
-          </a>
         </div>  
         </div>   
         <div class="box-wrapper box2">
             <div class="box-styling">
               <a href="https://xd.adobe.com/view/5aacc201-57b6-4099-b588-98659d1c84a3-0fff/">
                 <img src="assets/thumnails/steam-thumbnail-mock.png">
+              </a>
                 <div class="overlay design-bigText">
             <h2>Steam App Redesign</h2>
-            <p>click to see more</p>
+            <a href="https://xd.adobe.com/view/5aacc201-57b6-4099-b588-98659d1c84a3-0fff/"><p>Try the prototype! ></p></a>
           </div>
-          </a>
+          
         </div>  
         </div>        
         <div class="box-wrapper box3">
             <div class="box-styling">
-              <a href="">
-                <img src="assets/brand-identity-1.png">
+              <a href="assets/thumnails/slide-deck.pdf" target="_blank">
+                <img src="assets/thumnails/after-dark-mock.png"> 
+             </a>
                 <div class="overlay design-bigText">
-            <h2>Project 3</h2>
-            <p>description</p>
+            <h2>After Dark Skin Care Brand</h2>
+            <a href="assets/thumnails/slide-deck.pdf" target="_blank"><p>View the slide deck! ></p></a>
           </div>
-          </a>
+
         </div> 
         </div>       
         <div class="box-wrapper box4">
             <div class="box-styling">
-              <a href="">
-                <img src="assets/100-things-poster.png">
+              <a href="assets/thumnails/whm-posters.pdf" target="_blank">
+                <img src="assets/thumnails/whm-mock.png">
+              </a>
                 <div class="overlay design-bigText">
-            <h2>Project 4</h2>
-            <p>description</p>
+            <h2>Women's History Month Posters</h2>
+            <a href="assets/thumnails/whm-posters.pdf" target="_blank"><p>View all 16 posters! ></p></a>
           </div>
-          </a>
+          
         </div> 
         </div>         
         <div class="box-wrapper box5">
             <div class="box-styling">
-            <a href="">
-              <img src="assets/app-design.png">
+            <a href="assets/thumnails/scream-slide.pdf" target="_blank">
+              <img src="assets/thumnails/scream-mock.png">
+            </a>
               <div class="overlay design-bigText">
-            <h2>Project 5</h2>
-            <p>description</p>
+            <h2>Scream DVD Cover Redesign</h2>
+            <a href="assets/thumnails/scream-slide.pdf"><p>View redesign here! ></p></a>
           </div>
-          </a>
+          
           </div>
         </div>          
         <div class="box-wrapper box6">
             <div class="box-styling">
               <a href="">
-                <img src="assets/business-card.png">
+                <img src="assets/thumnails/shabani-mock.png">
+              </a>
                 <div class="overlay design-bigText">
-            <h2>Project 6</h2>
-            <p>description</p>
+            <h2>Shabani Rhodesian Ridgeback Logo Design</h2>
           </div>
-          </a>
+          
           </div>
         </div> 
       </section>
 
+      <footer>
+        <hr>
+        <div class="row">
+          <div class="column">
+            <a href="index.html"><h6>Home</h6></a>
+          </div>
+          <div class="column">
+            <h6> Portfolios+</h6>
+            <a href="design.html"><p>Design Portfolio</p></a>
+            <a href="photo.html"><p>Photography Portfolio</p></a>
+            <a href="art.html"><p>Art Portfolio</p></a>
+          </div>
+          <div class="column">
+            <a href="about.html"><h6>About</h6></a>
+          </div>
+        </div>
+      </footer>
 </div>
 </body>

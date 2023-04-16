@@ -138,3 +138,7 @@
   transform: scaleX(1);
   transform-origin: bottom left;
 }
+
+ a :hover{
+  color: #B46060;
+}

@@ -10,6 +10,12 @@ body {
     background-color: #1a1a1a;
 }
 
+hr {
+  height: 2px;
+  background-color:#B46060;
+  border: none;
+}
+
 .disclaimer {
     text-align: center;
     margin-top: 30%;
@@ -22,10 +28,7 @@ a {
 .favicon {
   color:#FFF4E0;
 }
-.clickable {
-text-decoration:dotted;
- text-decoration-color:#B46060;
-}
+
 
 h3 {
   text-transform: uppercase;
@@ -183,4 +186,11 @@ ul {
   display: none !important;
   }
 
+}
+
+.page-header {
+    font-family: "mr-eaves-sans", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    text-transform: uppercase;
 }
