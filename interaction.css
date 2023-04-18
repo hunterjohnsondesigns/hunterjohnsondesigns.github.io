@@ -142,3 +142,17 @@
  a :hover{
   color: #B46060;
 }
+
+button {
+  border-radius: 8px;
+  background-color:#B46060;
+  font-family: bryant-web, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color:#FFF4E0;
+  scale: 200%;
+  margin: 10%;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+}
