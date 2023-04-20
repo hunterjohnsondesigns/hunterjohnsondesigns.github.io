@@ -21,9 +21,12 @@
   
   .portfolio-container {
     display: grid;
-    background-color: #B46060;
+    /* background-color: #B46060; */
     align-items: center;
     justify-content: center;
+    transform: translateX(1%);
+    transform: translateY(20%);
+    transform: scale(80%);
     margin: 0 auto;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
