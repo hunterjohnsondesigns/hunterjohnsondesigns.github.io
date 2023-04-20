@@ -8,6 +8,10 @@
             "footer";
   }
 
+  footer {
+    transform: translateX(5%);
+   }
+
 .content {
     grid-area: content;
     width: 100vw;
@@ -31,7 +35,9 @@
     ;
 }
 
-
+.survey{
+    text-align: center;
+  }
 .box1 {
     grid-area: a;
 }
@@ -55,7 +61,6 @@
 .box6 {
     grid-area: f;
 }
-
 
 
 @media only screen and (min-width: 1200px){

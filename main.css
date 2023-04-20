@@ -10,6 +10,10 @@ body {
     background-color: #1a1a1a;
 }
 
+footer {
+ transform: translateX(5%);
+}
+
 hr {
   height: 2px;
   background-color:#B46060;
@@ -19,6 +23,9 @@ hr {
 .disclaimer {
     text-align: center;
     margin-top: 30%;
+}
+.survey{
+  text-align: center;
 }
 
 a {
@@ -37,7 +44,7 @@ h3 {
 
 h1, h2, h3, h4, h5, h6, p {
   color:#FFF4E0;
-  font-size: 1.4em;
+  font-size: 1.3em;
 }
 
 
