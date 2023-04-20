@@ -62,7 +62,7 @@
     filter: alpha(opacity=0);
     color: #FFF4E0;
     text-transform: uppercase;
-    font-size: 4em;
+    font-size: 3.5em;
     margin-top:100px;
   }
   
@@ -107,7 +107,7 @@
 }
 
 .bigText {
-    font-size: 2em;
+    /* font-size: 2em; */
     padding-right: .5ch;
 }
 
