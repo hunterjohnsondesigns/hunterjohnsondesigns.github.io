@@ -42,3 +42,14 @@ function myFunction() {
     x.style.display = "block";
   }
 }
+
+
+
+$(window).scroll(function() {
+  if ($(this).scrollTop()> 20) {
+      $('.arrow-container').fadeOut();
+   }
+  else {
+    $('.arrow-container').fadeIn();
+   }
+});
