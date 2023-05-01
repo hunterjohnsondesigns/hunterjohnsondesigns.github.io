@@ -1,4 +1,4 @@
-# boilerPlate
+# HunterJohnsonPortfolioSite
 Technologies used to complete this site were a CSS Grid generator 
 https://cssgrid-generator.netlify.app/ that was implemented on the 
 homepage for the portfolio highlight section along with GitHub Desktop 
